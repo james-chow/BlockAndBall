@@ -59,7 +59,7 @@ int main(){
     }
     
     ball->velocity = 0;
-    block->velocity = 0.000001 * block->velocity; // meters per millisecond
+    block->velocity = 0.000001 * block->velocity; // meters per microsecond
     
     collide(*block,*ball);
     num_collisions = 1;
